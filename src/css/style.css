@@ -1,0 +1,359 @@
+.container {
+    width: 1200px;
+}
+
+.mainPage {
+    position: relative;
+    margin-top: -9px;
+    background-color: green;
+    min-height: 100px;
+    margin-left: -9px;
+    margin-right: -9px;
+}
+
+h1.unity {
+    position: absolute;
+    top: 28px;
+    left: 683px;
+    color: #fff;
+    text-align: center;
+    font-family: Acme;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+} 
+
+.rectangle {
+   display: block;
+   margin: 0 auto;
+   width: 10%;
+    padding: 10px;
+}
+
+.group {
+    position: absolute;
+    top: 9px;
+    width: 118px;
+    left: 540px;
+
+}
+.product_items {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    font-family: Acme;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.desc {
+    color: black;
+    font-family: Acme;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 35px;
+    margin-top: 50px;
+    text-align: center;
+    margin-left: 150px;
+}
+
+.disabilityForm {     
+    position: absolute;
+    right: 300px;                                                                                                                                                                                margin-top: 10px;
+    width: 800px;
+    height: 800px;
+    border: 1px solid darkgrey;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.form_items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: self-start;
+    margin: 10px;
+}
+
+.inputFormDis {
+    width: 300px;
+    height: 40px;
+    margin: 20px 10px;
+}
+
+.damage {
+    position: relative;
+    top: 25px;
+    left: 6px;
+    margin: 7px 1px;
+    height: 40px;
+    width: 308px;
+}
+
+.vehicle {
+    position: relative;
+    top: 120px;
+    right: 310px;
+    margin: 7px 1px;
+    height: 40px;
+    width: 308px;
+
+
+}
+
+img.withDog {
+    position: absolute;
+    top: 595px;
+    left: 42px;
+    width: 18px;
+    height: 18px;
+    margin: 8px 13px;
+    z-index: 1;
+}
+
+button.withDog {
+    position: absolute;
+    top: 579px;
+    left: 29px;
+    height: 47px;
+    width: 228px;
+    margin: 10px; 
+    border-radius: 20px;
+    border: 1px solid darkgrey;
+    cursor: pointer;
+}
+
+button.withDog.clicked {
+    background-color: green;
+    color: white;
+}
+
+button.takeAtaxi {
+    position: absolute;
+    top: 700px;
+    left: 35px;
+    height: 50px;
+    width: 232px;
+    margin: 10px; 
+    border-radius: 21px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+audio.audioPlayer1{
+    position: absolute;
+    top: 29px;
+    right: 26px;
+    cursor: pointer;
+    height: 40px ;
+}
+
+audio.audioPlayer2{
+    position: absolute;
+    top: 120px;
+    right: 26px;
+    cursor: pointer;
+    height: 40px;
+}
+
+audio.audioPlayer3{
+    position: absolute;
+    top: 200px;
+    right: 26px;
+    cursor: pointer;
+    height: 40px;
+}
+
+audio.audioPlayer4 {
+    position: absolute;
+    top: 289px;
+    right: 26px;
+    cursor: pointer;
+}
+
+audio.audioPlayer5 {
+    position: absolute;
+    top: 365px;
+    right: 26px;
+    cursor: pointer;
+}
+
+audio.audioPlayer6  {
+    position: absolute;
+    top: 462px;
+    right: 26px;
+    cursor: pointer;
+}
+
+audio.audioPlayer7  {
+    position: absolute;
+    top: 579px;
+    right: 30px;
+    cursor: pointer;
+}
+
+audio.audioPlayer8  {
+    position: absolute;
+    top: 700px;
+    right: 29px;
+    cursor: pointer;
+}
+
+.feedback {
+    position: relative;
+    top: 100px;
+    display: flex;
+}
+
+.feedback_items {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    left: 400px;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 50px;
+    position: absolute;
+    left: 213px;
+    top: 0;
+}
+
+.textArea {
+    display: block;
+    margin: 0 auto;
+    position: absolute;
+    left: 213px;
+    top: 100px;
+}
+
+
+.driverBelt {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    left: 213px;
+    top: 200px;
+
+}
+.driverCalls {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    left: 213px;
+    top: 250px;
+}
+
+.harassment {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    left: 213px;
+    top: 300px;
+   
+}
+
+.textMe {
+    margin-top: 10px;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    left: 213px;
+    top: 350px;
+}
+.send {
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    height: 50px;
+    width: 232px;
+    margin: 10px; 
+    border-radius: 21px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.registration {
+    margin-top: 30px;
+    position: absolute;
+    right: 24px;
+}
+
+.entryTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    right: 200px;
+    top: 50px;
+}
+
+.entry {
+    width: 70px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.order_done {
+    width: 200px;
+    height: 50px;
+    border: 1px solid gray;
+    position: absolute;
+    right: 650px;
+    top: 250px;
+}
+
+.order_done {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.done {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.feedback_send {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+}

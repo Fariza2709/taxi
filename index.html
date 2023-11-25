@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <title>Taxi</title>
+</head>
+<body>
+    <section id="mainPage" class="mainPage">
+    <div class="container">
+            <img class="group" src="./src/img/Group.png" alt="">
+            <img class="rectangle" src="./src/img/Rectangle 11.png" alt="">
+            <h1 class="unity">UnityRide</h1>
+        </div>   
+    </section>
+
+
+    <section>
+        <div class="container">
+            <div class="product_items" id="productItems">
+            <h2>Ваша сила и независимость велики. <br>  Пользуйтесь этим такси, чтобы достигнуть того, что вам важно!</h2>
+    <div class="desc">
+       Доступность к общественной жизни, самостоятельность и независимость, эффективность и удобство, доступ к медицинским услугам, учебные и трудовые возможности, профессиональная и социальная активность, экономия времени и усилий, инклюзивность в обществе, безопасность и комфорт, психологическое благополучие.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="disabilityForm" class="disabilityForm" style="display: none;">
+ <form class="form_items">  
+        <label>
+            <audio id="audioPlayer" class="audioPlayer1" src="./src/audio/Where from.m4a" controls></audio>
+            <input class="inputFormDis" type="text" placeholder="Откуда"  x-webkit-speech>
+        </label>
+        
+        <label>
+            <audio id="audioPlayer" class="audioPlayer2" src="./src/audio/Where.m4a" controls></audio>
+            <input class="inputFormDis" type="text" placeholder="Куда"  x-webkit-speech>
+        </label>
+        
+        </label>
+            <audio id="audioPlayer" class="audioPlayer3" src="./src/audio/Price.m4a" controls></audio>
+            <input class="inputFormDis" type="number" placeholder="Предложите цену"  x-webkit-speech>
+        </label>
+        
+        </label>
+            <audio id="audioPlayer" class="audioPlayer4" src="./src/audio/Comments.m4a" controls></audio>
+            <input class="inputFormDis" type="text" placeholder="Опции и комментарии"  x-webkit-speech>
+        <label>
+
+        <audio id="audioPlayer" class="audioPlayer5" src="./src/audio/Damage.m4a" controls></audio>
+            <select id="damage" class="damage">
+            <option x-webkit-speech>Выберите нарушение</option>
+            <option value="damage1">Нарушение слуха (глухие, слабослышащие, позднооглохшие)</option>
+            <option id="eye" value="damage2">Нарушение зрения (слепые, слабовидящие)</option>
+            <option value="damage3">Нарушение речи (логопаты)</option>
+            <option value="damage4">Нарушение опорно-двигательного аппарата</option>
+            <option value="damage5">Умственная отсталость</option>
+            <option value="damage6">Задержка психического развития</option>
+            <option value="damage7">Нарушение поведения и общения</option>
+            <option value="damage8">Комплексные нарушения психофизического развития, с так называемыми
+                сложными дефектами (слепоглухонемые, глухие или слепые дети с умственной отсталостью).</option>      
+        </select>
+        
+        <audio id="audioPlayer" class="audioPlayer6" src="./src/audio/Driver.m4a" controls></audio>
+            <select id="vehicle" class="vehicle">
+            <option x-webkit-speech>Что сообщить водителю?</option>
+            <option value="transport1">Транспорт с низким полом</option>
+            <option value="transport2">Транспорт с рампой</option>
+            <option value="transport3">Помощь в посадке и высадке</option>
+            <option value="transport4">Климат-контроль для заднего сидения</option>
+            <option value="transport5">Автомобили с высокой крышей</option>
+            <option value="transport6">Дополнительные сиденья</option>
+            <option value="transport7">Подъемный механизм </option>
+            <option value="transport8">Фиксаторы для инвалидных колясок</option>
+            </select>
+            <img class="withDog" src="./src/icon/dog.png" alt="dog">
+            <audio id="audioPlayer" class="audioPlayer7" src="./src/audio/Dog.m4a" controls></audio>
+            <button id="myButton" class="withDog" type="button" onclick="changeColor()" x-webkit-speech>Собака сопровождения</button>
+            <audio id="audioPlayer" class="audioPlayer8" src="./src/audio/Order.m4a" controls></audio>
+            <button id="takeAtaxi" class="takeAtaxi" type="submit" x-webkit-speech>ЗАКАЗАТЬ</button>
+          </form>
+    </div> 
+</section>
+
+<section class="feedback" id="feedback">
+    <div class="container">
+<div class="feedback_items">
+<h3>Поделитесь своим мнением о поездке</h3>
+    <textarea class="textArea" name="" id="" cols="100" rows="5"></textarea>
+<select name="" id="" class="driverBelt">
+    <option value="">Водитель был пристегнут?</option>
+    <option value="1">Да</option>
+    <option value="2">Нет</option>
+</select>
+<select name="" id="" class="driverCalls">
+    <option value="">Водитель разговаривал по телефону?</option>
+    <option value="1">Да</option>
+    <option value="2">Нет</option>
+</select>
+   <select name="" id="" class="harassment">
+    <option value="">Водитель домогался вас?</option>
+    <option value="1">Изнасиловал</option>
+    <option value="2">Запугивал</option>
+    <option value="3">Преследовал</option>
+    <option value="4">Психологический домогался</option>
+    <option value="5">Сексуальные домогался</option>
+    <option value="6">Требовал номер телефона</option>
+    <option value="7">Пытался познакомиться</option>
+    <option value="8">Заблокировал дверь</option>
+    <option value="9">Нет</option>
+    <option value="10">Другое</option>
+    <label><input class="textMe" type="text" placeholder="Напишите подробно"></label>
+    </select>
+    <button type="submit" class="send" id="send">Отправить отзыв</button>
+        </div>
+    </div>   
+</section>
+
+
+<section>
+    <div class="entryTable" id="entryTable">
+        <label><input type="email" placeholder="Ваша почта"></label>
+        <label><input type="password" placeholder="Ваш пароль"></label>
+        <button id="entry" class="entry">Войти</button>
+    </div>
+</section>
+
+
+<section class="order_done" id="orderDone" style="display: none;">
+    <div class="done">
+        <p>Заказ оформлен</p>
+</div>
+</section>
+
+<section class="feedback_send" id="feedbackSend" style="display: none;">
+    <div class="done">
+        <p>Отзыв отправлен</p>
+</div>
+</section>
+
+<script src="./src/script/app.js"></script>
+<script src="./src/script/voice.js"></script>
+</body>
+</html>
